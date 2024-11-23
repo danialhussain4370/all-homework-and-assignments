@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Theme with State Persistence</title>
+    <style>
+      body {
+        background-color: rgb(255, 0, 0);
+        color: rgb(0, 0, 0);
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      body.dark {
+        background-color: rgba(0, 0, 0, 0.856);
+        color: rgb(255, 0, 0);
+      }
+
+      .themeToggleBtn {
+        margin: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Toggle Theme Example</h1>
+    <button class="themeToggleBtn">Toggle Theme</button>
+
+    <script src="status.js"></script>
+  </body>
+</html>

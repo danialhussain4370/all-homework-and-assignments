@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <a href="index.html">go to index</a>
+    <script>
+      let shape = prompt("Enter your shape ");
+      if (shape.toLowerCase() == "circle") {
+        let r = prompt("Entrer the radius of the circle");
+        let area = 3.14 * (r * r);
+        console.log("Area of circle is: " + area);
+      } else if (shape.toLowerCase() == "rectangle") {
+        let l = prompt("Enter your length");
+        let w = prompt("Enter the width");
+        let area = l * w;
+        console.log("Area of rectangle is: " + area);
+      } else if (shape.toLowerCase() == "triangle") {
+        let b = prompt("Enter the base");
+        let h = prompt("Enter the hieght");
+        let area = (b * h) / 2;
+        console.log(area);
+      } else {
+        console.log("invalid shape is enterred");
+      }
+    </script>
+  </body>
+</html>

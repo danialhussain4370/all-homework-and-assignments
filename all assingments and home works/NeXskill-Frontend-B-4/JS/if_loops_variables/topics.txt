@@ -1,0 +1,15 @@
+- Variables
+- If Statement, Switch
+- Loops
+- Objects & Array 
+
+
+Variables
+-> let 
+
+if 
+
+if else
+if else if else if 
+
+if else if else if .... else
